@@ -1,0 +1,14 @@
+-Changes in b-min.css
+	.input-group-addon{border: 1px solid #c2c2c2;}
+
+-Remove in black-min.css
+	body .input-group-addon,body.login-page .login-content a{color:#eee}
+
+-Changes in form-min.css
+	.has-switch{border-color:#c2c2c2}
+
+-Changes in validate-min.css
+	messages:{required:"Required field."}
+
+-Add in core-min.css
+	.breadcrumb li a:hover{text-decoration: underline;}

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<mapping class="com.ashim.model.Grade" />
+		<mapping class="com.ashim.model.MenuInfo" />
+		<mapping class="com.ashim.model.MenuModel" />
+		<mapping class="com.ashim.model.Role" />
+		<mapping class="com.ashim.model.Parents" />
+		<mapping class="com.ashim.model.Section" />
+		<mapping class="com.ashim.model.Staff" />
+		<mapping class="com.ashim.model.StaffEducation" />
+		<mapping class="com.ashim.model.StaffWorkExp" />
+		<mapping class="com.ashim.model.Student" />
+		<mapping class="com.ashim.model.Subject" />
+		<mapping class="com.ashim.model.User" />
+	</session-factory>
+
+</hibernate-configuration>
